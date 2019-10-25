@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <Configuration>Debug</Configuration>
+    <AmgBuildVersion Condition="$(AmgBuildVersion)==''" >0.31.0-ci0002</AmgBuildVersion>
+    <PackAsTool>true</PackAsTool>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Amg.Build" Version="$(AmgBuildVersion)" />
+  </ItemGroup>
+</Project>
